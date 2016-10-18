@@ -1,0 +1,271 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Ruchika Saklani
+Updated: October 2016
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+.navbar-nav>.open>a, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus
+{
+  background-color: #F9966B;
+}
+
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+    background-color: #F9966B;
+}
+
+.navbar{
+  background-color:  #F9966B;
+}
+
+.page-header h1{
+  color:red;
+  font-family: 'Bad Script', cursive;
+}
+
+.well p{
+  text-decoration-color: black;
+  font-family: 'Kaushan Script', cursive;
+}
+#features {
+  text-align: center;
+}
+#features img {
+  margin: 0 0 20px;
+}
+#featuresHeading h2 {
+
+  font-family: 'Playball', cursive;
+}
+
+#featuresHeading p{
+
+  font-family:fantasy;;
+}
+#inputMessage {
+  margin-bottom: 15px;
+}
+
+#slide1 {
+  background: url('../../images/carousel_large_01.jpg') top center no-repeat ;
+ }
+ #slide2 {
+   background: url('../../images/carousel_large_02.jpg') top center no-repeat ;
+  }
+  #slide3 {
+    background: url('../../images/carousel_large_03.jpg') top center no-repeat ;
+   }
+#moreCourses {
+  background-color: #F9966B;
+  margin-top: 10px;
+}
+footer {
+  background: #333;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+  margin-top: 10px;
+
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.well .page-header{
+  margin-top: 0;
+}
+
+.well .page-header h1{
+  margin-top: 0;
+}
+
+ul.unstyled {
+  list-style: none;
+  padding: 0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput{
+     width:420px;
+   }
+.navbar-brand {
+  padding: 13px 15px;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel{
+  margin-top: 60px;
+}
+.carousel-caption {
+  font: 32px;
+  margin-top: 60px;
+}
+
+#myCarousel .item {
+  height: 400px;
+}
+
+form{
+
+    margin-top: 150px;
+    margin-bottom: 90px;
+     }
+.form-control {
+  width: 50%;
+}
+
+.form-group {
+  margin-top:0;
+  margin-left: 30px;
+}
+
+.checkbox {
+  margin-left: 30px;
+}
+
+.btn {
+  margin-left: 5px;
+
+}
+#submit_button {
+
+  margin-left: 50px;
+}
+#gallery_button {
+  width:240px;
+  margin-left: 470px;
+  margin-bottom: 40px;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.alert {
+  margin-top: 20px;
+  display: none;
+}
+.well {
+  margin: 20 px 0px;
+}
+
+.tabbable img.thumbnail {
+
+  margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+  margin: 20px 0;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.thumbnail h3 {
+  font-size: 16px;
+  margin: 0 0 10px;
+  line-height: 20px;
+}
+
+.thumbnail .price {
+  font-size:  22px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 10px;
+}
+
+.thumbnail .price sup {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+  margin-right: 5px;
+}
+
+
+.carousel-caption{
+  font-size: 16px;
+}
+.carousel-caption h4{
+  font-size: 24px;
+}
+.unstyled a {
+
+  margin-right: 5px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+  #slide1 {
+    background: url('../images/carousel_small_01.jpg') top center no-repeat ;
+   }
+   #slide2 {
+     background: url('../../images/carousel_small_02.jpg') top center no-repeat ;
+    }
+    #slide3 {
+      background: url('../../images/carousel_small_03.jpg') top center no-repeat ;
+     }
+.thumbnail .price {
+  font-size: 14px;
+}
+
+.thumbnail .price sup {
+  font-size: 10px;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #myCarousel .item {
+    height: 310px;
+  }
+  #slide1 {
+    background: url('../../images/carousel_medium_01.jpg') top center no-repeat ;
+   }
+   #slide2 {
+     background: url('../../images/carousel_medium_02.jpg') top center no-repeat ;
+    }
+    #slide3 {
+      background: url('../../images/carousel_medium_03.jpg') top center no-repeat ;
+     }
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #slide1 {
+    background: url('../../images/carousel_large_01.jpg') top center no-repeat ;
+   }
+   #slide2 {
+     background: url('../../images/carousel_large_02.jpg') top center no-repeat ;
+    }
+    #slide3 {
+      background: url('../../images/carousel_large_03.jpg') top center no-repeat ;
+     }
+
+}
