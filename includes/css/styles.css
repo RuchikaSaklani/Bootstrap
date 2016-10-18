@@ -8,16 +8,15 @@ Updated: October 2016
 
 */
 
-
 /* --------------------------------------
    Layout
    -------------------------------------- */
-.navbar-nav>.open>a, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus
+.navbar-default->.open>a, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus
 {
   background-color: #F9966B;
 }
 
-.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background-color: #F9966B;
 }
 
@@ -44,7 +43,6 @@ Updated: October 2016
 
   font-family: 'Playball', cursive;
 }
-
 #featuresHeading p{
 
   font-family:fantasy;;
@@ -52,7 +50,6 @@ Updated: October 2016
 #inputMessage {
   margin-bottom: 15px;
 }
-
 #slide1 {
   background: url('../../images/carousel_large_01.jpg') top center no-repeat ;
  }
@@ -72,9 +69,7 @@ footer {
   font-size: 11px;
   padding: 20px;
   margin-top: 10px;
-
 }
-
 
 /* --------------------------------------
    Typography
@@ -118,13 +113,10 @@ ul.unstyled {
   font: 32px;
   margin-top: 60px;
 }
-
 #myCarousel .item {
   height: 400px;
 }
-
 form{
-
     margin-top: 150px;
     margin-bottom: 90px;
      }
@@ -143,10 +135,8 @@ form{
 
 .btn {
   margin-left: 5px;
-
 }
 #submit_button {
-
   margin-left: 50px;
 }
 #gallery_button {
@@ -166,26 +156,20 @@ form{
 .well {
   margin: 20 px 0px;
 }
-
 .tabbable img.thumbnail {
-
   margin: 0 20px 10px 0;
 }
-
 .thumbnails {
   margin: 20px 0;
 }
-
 .thumbnail {
   position: relative;
 }
-
 .thumbnail h3 {
   font-size: 16px;
   margin: 0 0 10px;
   line-height: 20px;
 }
-
 .thumbnail .price {
   font-size:  22px;
   position: absolute;
@@ -193,17 +177,13 @@ form{
   right: -10px;
   padding: 10px;
 }
-
 .thumbnail .price sup {
   font-weight: normal;
   font-size: 12px;
 }
-
 .thumbnail span.glyphicon {
   margin-right: 5px;
 }
-
-
 .carousel-caption{
   font-size: 16px;
 }
@@ -211,7 +191,6 @@ form{
   font-size: 24px;
 }
 .unstyled a {
-
   margin-right: 5px;
 }
 
@@ -221,7 +200,6 @@ form{
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-
   #slide1 {
     background: url('../images/carousel_small_01.jpg') top center no-repeat ;
    }
@@ -234,12 +212,10 @@ form{
 .thumbnail .price {
   font-size: 14px;
 }
-
 .thumbnail .price sup {
   font-size: 10px;
 }
 }
-
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
   #myCarousel .item {
@@ -254,8 +230,6 @@ form{
     #slide3 {
       background: url('../../images/carousel_medium_03.jpg') top center no-repeat ;
      }
-
-
 /* Large desktop */
 @media (min-width: 1200px) {
   #slide1 {
@@ -267,5 +241,4 @@ form{
     #slide3 {
       background: url('../../images/carousel_large_03.jpg') top center no-repeat ;
      }
-
 }
