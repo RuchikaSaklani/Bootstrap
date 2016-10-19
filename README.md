@@ -6,4 +6,4 @@ The second webpage opens up by clicking on the "choose from gallery" button  bel
 There is also a sign up link in which "form" is used, where user can sign up for the usage of website features.
 
 
-The link for the website is 
+The link for the website is https://github.com/RuchikaWipro/Bootstrap.git
