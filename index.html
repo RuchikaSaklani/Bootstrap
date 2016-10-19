@@ -22,7 +22,7 @@
 	<body>
 
 		<div class="container" id="main">
-			<div class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar navbar-default navbar-fixed-top" id="navigationBar">
 				<div class="container">
 
 					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
@@ -90,8 +90,9 @@
 
 				</div><!-- end container -->
 			</div><!-- end navbar -->
-
-			<div class="carousel slide" id="myCarousel">
+		</div>
+			<div class="container-fluid carouselContainerFluid" >
+			<div class="carousel slide" id="myCarousel" data-ride="carousel">
 
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
@@ -130,7 +131,8 @@
 				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
 
 			</div><!-- end myCarousel -->
-
+		</div>
+		<div class="container">
 			<div class="row" id="bigCallout">
 				<div class="col-12">
       		<div class="alert alert-success alert-block fade in" id="successAlert">
@@ -151,7 +153,7 @@
 
 						<p class="lead">We have a huge, fascinating gallery of all types of music which you can listen to or download for free instantly after signing up! Have fun!</p>
 
-						<a href="" class="btn btn-large btn-default" id="alertMe">Click here to sign up</a>
+						<a href="" class="btn btn-large btn-primary" id="alertMe">Click here to sign up</a>
 					</div><!-- end well -->
 
 				</div><!-- end col-12 -->

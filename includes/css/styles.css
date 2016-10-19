@@ -17,11 +17,11 @@ Updated: October 2016
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: #F9966B;
+  background-color: #F9966B;
 }
 
 .navbar{
-  background-color:  #F9966B;
+  background-color: #F9966B;
 }
 
 .page-header h1{
@@ -51,13 +51,14 @@ Updated: October 2016
   margin-bottom: 15px;
 }
 #slide1 {
-  background: url('../../images/carousel_large_01.jpg') top center no-repeat ;
+  background: url('../../images/musicCarousel1.jpg') top center no-repeat ;
+
  }
  #slide2 {
-   background: url('../../images/carousel_large_02.jpg') top center no-repeat ;
+   background: url('../../images/musicCarousel2.jpg') top center no-repeat ;
   }
   #slide3 {
-    background: url('../../images/carousel_large_03.jpg') top center no-repeat ;
+    background: url('../../images/musicCarousel3.jpg') top center no-repeat ;
    }
 #moreCourses {
   background-color: #F9966B;
@@ -106,15 +107,21 @@ ul.unstyled {
    Carousel
    -------------------------------------- */
 
-#myCarousel{
+.carousel{
   margin-top: 60px;
+  width: 100%;
 }
 .carousel-caption {
   font: 32px;
   margin-top: 60px;
 }
+.carouselContainerFluid{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 20px;
+}
 #myCarousel .item {
-  height: 400px;
+  height: 700px;
 }
 form{
     margin-top: 150px;
@@ -136,13 +143,21 @@ form{
 .btn {
   margin-left: 5px;
 }
+.row .btn-block {
+  margin-left: 30px;
+  width :300px;
+}
 #submit_button {
   margin-left: 50px;
 }
 #gallery_button {
   width:240px;
-  margin-left: 470px;
+margin-left: 450px;
   margin-bottom: 40px;
+}
+.col-12 {
+  margin-left: 40px;
+  margin-top: 60px;
 }
 
 /* --------------------------------------
@@ -201,13 +216,19 @@ form{
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
   #slide1 {
-    background: url('../images/carousel_small_01.jpg') top center no-repeat ;
+    background: url('../images/musicCarousel1.jpg') top center no-repeat ;
+    height: 400px;
+    width: 100%;
    }
    #slide2 {
-     background: url('../../images/carousel_small_02.jpg') top center no-repeat ;
+     background: url('../../images/musicCarousel2.jpg') top center no-repeat ;
+     height: 400px;
+     width: 100%;
     }
     #slide3 {
-      background: url('../../images/carousel_small_03.jpg') top center no-repeat ;
+      background: url('../../images/musicCarousel3.jpg') top center no-repeat ;
+      height: 400px;
+      width: 100%;
      }
 .thumbnail .price {
   font-size: 14px;
@@ -223,12 +244,18 @@ form{
   }
   #slide1 {
     background: url('../../images/carousel_medium_01.jpg') top center no-repeat ;
+    height: 600px;
+    width: 100%;
    }
    #slide2 {
      background: url('../../images/carousel_medium_02.jpg') top center no-repeat ;
+     height: 600px;
+     width: 100%;
     }
     #slide3 {
       background: url('../../images/carousel_medium_03.jpg') top center no-repeat ;
+      height: 600px;
+      width: 100%;
      }
 /* Large desktop */
 @media (min-width: 1200px) {
